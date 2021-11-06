@@ -15,7 +15,7 @@ namespace Ejercicio.App.Persistencia
             if (!optionsBuilder.IsConfigured)
             {
                 //Dentro de estas comillas va conexion con la base de datos
-                optionsBuilder.UseSqlServer("Initial Catalog=Hospital2207208; Data Source=Reemplazar por nombre de servidor; Integrated Security=true");
+                optionsBuilder.UseSqlServer("Initial Catalog=Hospital2207208; Data Source=DESKTOP-0LQEFDS\SQLEXPRESS; Integrated Security=true");
                 /*
                     Initial catalog: nombre de la base de datos
                     Data Source: nombre del servidor de la base de datos
