@@ -10,7 +10,7 @@ namespace Ejercicio.App.Consola
         private static IRepositorioPaciente _repoPaciente=new RepositorioPaciente();
         static void Main(string[] args)
         {
-            Console.WriteLine("Esta es una linea de texto");
+            Console.WriteLine("Esta ya no es una linea de texto");
             //AddPaciente();
             BuscarPaciente(1);
             MostrarPacientes();
